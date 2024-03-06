@@ -483,9 +483,37 @@ span {
     transform: scale(1.08);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1512px) {
+    .skills-box img, video {
+        width: 36rem;
+}
+}
+@media (max-width: 1366px) {
+    .skills-box img, video {
+        width: 35rem;
+}
+}
+@media (max-width: 1330px) {
+    .skills-box img, video {
+        width: 34rem;
+}
+}
+@media (max-width: 1293px) {
+    .skills-box img, video {
+        width: 33rem;
+}
+}
+
+@media (max-width: 1257px) {
     html {
         font-size: 55%;
+    }
+    .skills-box img, video {
+        width: 35rem;
+    }
+
+    .modal-content { 
+        width: 70%;
     }
 }
 
@@ -508,6 +536,13 @@ span {
 
     .footer {
         padding: 2rem 3%;
+    }
+    .slider { 
+        width: 50%;
+    }
+
+    .modal-content { 
+        width: 80%;
     }
 }
 
@@ -564,7 +599,7 @@ span {
         margin: auto;
     }
 
-    .skills-btn a img, .skills-box a video {
+    .skills-btn img, .skills-box video {
         width: 100%;
     }
     .skills-box h4 {
@@ -582,6 +617,12 @@ span {
         margin-left: 1rem;
         padding-bottom: 1rem;
     }
+    .slider { 
+        width: 80%;
+    }
+    .modal-content { 
+        width: 85%;
+    }
 }
 
 @media (max-width: 450px) {
@@ -595,7 +636,22 @@ span {
     .services {
         padding-bottom: 5rem;
     }
+    .thum img {
+        width: 20rem;
+    }
 
+    .slider { 
+        width: 95%;
+    }
+
+    .modal-content { 
+        width: 90%;
+    }
+
+    .thum img {
+        width: 20rem;
+        margin: .5rem;
+    }
 }
 
 @media (max-width: 365px) {
@@ -622,6 +678,15 @@ span {
     
     .ab_prof img {
         float: none;
+    }
+
+    .modal-content { 
+        width: 90%;
+    }
+    
+    .thum img {
+        width: 15rem;
+        margin: .1rem;
     }
     
 }
