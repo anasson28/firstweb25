@@ -421,7 +421,7 @@ span {
 .ab_prof img {
     width: 15rem;
     border-radius: 49%;
-    border: var(--main-color) .5rem solid;
+    border: var(--text-color) .5rem solid;
     float: left;
 }
 .ab_prof h2 {
